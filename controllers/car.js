@@ -1,9 +1,11 @@
-const Car = require("../models/car");
+const Store = require("../store")
 
 class Car {
 
-    constructor() {
+    store;
 
+    constructor() {
+        this.store = new Store();
     };
 };
 
