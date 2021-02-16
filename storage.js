@@ -13,12 +13,12 @@ testearemos el funcionamiento de la clase antes de hacer el commit con la featur
 
 const { builtinModules } = require("module");
 
-class Store {
+class Storage {
 
     state = [];
 
     constructor(){
-        console.log("Se ha creado una instancia de Store")
+        console.log("Se ha creado una instancia de Storage")
     };
     
     async set(object) {
@@ -31,5 +31,5 @@ class Store {
     }
 };
 
-module.exports = Store;
+module.exports = Storage;
 
