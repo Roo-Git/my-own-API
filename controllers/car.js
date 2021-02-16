@@ -1,4 +1,4 @@
-const Storage = require("../store")
+const Storage = require("../storage")
 
 class Car {
 
