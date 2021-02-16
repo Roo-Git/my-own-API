@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Roo-Git/my-own-API/issues"
   },
-  "homepage": "https://github.com/Roo-Git/my-own-API#readme"
+  "homepage": "https://github.com/Roo-Git/my-own-API#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
